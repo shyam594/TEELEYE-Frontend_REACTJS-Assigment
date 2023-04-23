@@ -1,0 +1,8 @@
+1.)The code is calling a function in the 'onClick' prop directly instead of passing it as a function to be called later.
+2.)The 'useState' function is being used incorrectly, which will result in an error.
+3.)Invalid prop types are being used in the 'propTypes' definition.
+4.)The 'shape' definition in the 'propTypes' is missing a closing brace.
+5.)The 'defaultProps' are set to 'null' for the 'items' prop, but it should be set to an empty array instead.
+6.)'PropTypes.shape' is missing in the 'propTypes' for the shape definition of each item.
+7.)The 'defaultProps' for 'WrappedListComponen't are missing.
+8.)A unique 'key' prop should be added to the 'SingleListItem' component to help React identify which items have changed and need to be re-rendered.
